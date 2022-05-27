@@ -22,6 +22,10 @@ class Main extends Sprite
 	var startFullscreen:Bool = false; // Whether to start the game in fullscreen on desktop targets
 	public static var fpsVar:FPS;
 
+	// pause thingies
+	public static var playStateToOp:Bool = false;
+	public static var cameBack:Bool = false;
+
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
 	public static function main():Void
